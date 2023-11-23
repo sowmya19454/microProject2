@@ -32,7 +32,7 @@ body{
    border: none;
    margin: 5px;
  
-   background-image: url("search.png");
+   background-image: url("assets/search.png");
    background-position: right 10px center;
    background-repeat: no-repeat;
    background-size: 15px;
@@ -98,7 +98,7 @@ body{
    text-align: left;
    display: flex; 
     align-items: center;
-   background-image: url("Arrow\ 1.png");
+   background-image: url("assets/Arrow\ 1.png");
    background-position: right 15px center;
    background-repeat: no-repeat;
 
