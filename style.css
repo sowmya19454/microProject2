@@ -51,10 +51,11 @@ body{
  .hero img{
    width:30%;
    box-shadow: 0px 0px 10px black;
+   border-radius: 18px;
  }
  .ip p{
    padding: 25px;
-   /* width:60%; */
+   
  }
  .hero{
     display: flex;
@@ -70,7 +71,7 @@ body{
     
  }
  button{
-   border-radius: 5px;
+   border-radius: 10px;
    padding: 1.5rem;
    background-color: transparent;
    border-color: white;
@@ -90,7 +91,7 @@ body{
     background-color: #483EFF;
     display: flex;
     justify-content: space-between;
-    /* padding-top: 3rem; */
+    
  }
  ul{
    list-style: none;
@@ -124,23 +125,25 @@ body{
  }
  .details{
    display: flex;
+   line-height: 2.5rem;
 
  }
  .details ul:first-child {
    font-weight: bold;
+   font-size: 28;
 }
+
  .rowCards {
 
    display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   padding-bottom: 3rem;
-  
+  justify-content: space-between;
 }
 
 .card {
    width: 337px;
-   /* height: 145.48px; */
    height: 90px;
    padding: 20px;
    margin: 10px;
@@ -148,6 +151,9 @@ body{
    color: white;
    border-radius: 11px;
    box-shadow: 0px 0px 20px black;
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
 }
 
 .paleblue {
