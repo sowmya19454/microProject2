@@ -1,5 +1,6 @@
 body{
    margin: 0px;
+   margin-bottom: 2rem;
 }
 .Navbar{
     background-color: #6F6AF7;
@@ -37,20 +38,30 @@ body{
    background-repeat: no-repeat;
    background-size: 15px;
  }
+ .main{
+   padding: 3rem;
+ }
  .ip{
     background-color: #E5D8FF;
-    width:60%;
+    width:65%;
     border-radius: 10px;
     box-shadow: inset 0px 0px 10px gray;
+    box-shadow: 0px 0px 10px black;
+ }
+ .hero img{
+   width:30%;
+   box-shadow: 0px 0px 10px black;
  }
  .ip p{
    padding: 25px;
+   /* width:60%; */
  }
  .hero{
     display: flex;
     justify-content: space-around;
     padding-top: 6rem ;
-  
+    padding-bottom: 3rem;
+  height: 60vh;
  }
  .sideButtons{
     display: flex;
@@ -67,6 +78,7 @@ body{
    width:397px;
    height: 133px;
    margin:2rem;
+   border: white solid;
  }
  .sideButtons button:first-child {
    background-color: #BCE0F6;
@@ -78,6 +90,7 @@ body{
     background-color: #483EFF;
     display: flex;
     justify-content: space-between;
+    /* padding-top: 3rem; */
  }
  ul{
    list-style: none;
@@ -121,17 +134,20 @@ body{
    display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-bottom: 3rem;
+  
 }
 
 .card {
    width: 337px;
-   height: 145.48px;
+   /* height: 145.48px; */
+   height: 90px;
    padding: 20px;
    margin: 10px;
-   text-align:left;
+   text-align: left;
    color: white;
    border-radius: 11px;
-   box-shadow: 0px 0px 20px grey;
+   box-shadow: 0px 0px 20px black;
 }
 
 .paleblue {
@@ -154,6 +170,8 @@ body{
   margin-top: 13rem;
   top: 100px;
   z-index: 1;
+  width:5rem;
+
    
 }
 .icon{
