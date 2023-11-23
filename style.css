@@ -1,0 +1,165 @@
+body{
+   margin: 0px;
+}
+.Navbar{
+    background-color: #6F6AF7;
+    height: 2rem;
+    position:fixed ;
+    top:0px;
+    width:100%;
+    z-index: 1000;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+    margin: 0px;
+    
+   
+}
+ .Navbar ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    
+ }
+ .Navbar ul li:hover {
+   cursor: pointer;
+}
+.Navbar input {
+   border-radius: 50px;
+   border: none;
+   margin: 5px;
+ 
+   background-image: url("search.png");
+   background-position: right 10px center;
+   background-repeat: no-repeat;
+   background-size: 15px;
+ }
+ .ip{
+    background-color: #E5D8FF;
+    width:60%;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px gray;
+ }
+ .ip p{
+   padding: 25px;
+ }
+ .hero{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6rem ;
+  
+ }
+ .sideButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+ }
+ button{
+   border-radius: 5px;
+   padding: 1.5rem;
+   background-color: transparent;
+   border-color: white;
+   color: white ;
+   width:397px;
+   height: 133px;
+   margin:2rem;
+ }
+ .sideButtons button:first-child {
+   background-color: #BCE0F6;
+   color: black;
+   border: none;
+   box-shadow: 0px 0px 10px black;
+}
+ .info{
+    background-color: #483EFF;
+    display: flex;
+    justify-content: space-between;
+ }
+ ul{
+   list-style: none;
+ }
+ .displayInfo{
+   background-color: white;
+   width: 60%;
+   border-radius:5px ;
+   padding: 3rem;
+   margin: 1rem;
+   position: relative;
+ }
+ .displayInfo button{
+   background-color: black;
+   position:absolute;
+   border-radius: 5px;
+   border: none;
+   text-align: left;
+   display: flex; 
+    align-items: center;
+   background-image: url("Arrow\ 1.png");
+   background-position: right 15px center;
+   background-repeat: no-repeat;
+
+   bottom: 20px;
+   right: 5px;
+   width: 120px; 
+   height: 30px;
+   background-size: 1.5rem;
+   
+ }
+ .details{
+   display: flex;
+
+ }
+ .details ul:first-child {
+   font-weight: bold;
+}
+ .rowCards {
+
+   display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+   width: 337px;
+   height: 145.48px;
+   padding: 20px;
+   margin: 10px;
+   text-align:left;
+   color: white;
+   border-radius: 11px;
+   box-shadow: 0px 0px 20px grey;
+}
+
+.paleblue {
+   background-color: #929DFF;
+}
+
+.blue {
+   background-color: #734CF2; 
+}
+
+.lavender {
+   background-color: #D288FF; 
+}
+.black {
+   background-color: black ; 
+}
+.floatingIcon{
+   position: sticky;
+  float: right;
+  margin-top: 13rem;
+  top: 100px;
+  z-index: 1;
+   
+}
+.icon{
+   position: fixed;
+   right: 60px;
+   bottom: -10px;
+   height: 120px;
+   margin-bottom: 40px;
+}
